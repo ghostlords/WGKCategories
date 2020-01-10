@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WGKCategories_Example' do
+  pod 'WGKCategories', :path => '../'
+
+  target 'WGKCategories_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - WGKCategories (0.1.0)
+
+DEPENDENCIES:
+  - WGKCategories (from `../`)
+
+EXTERNAL SOURCES:
+  WGKCategories:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WGKCategories: a1ff11df0276b3e5ef4345ae1a8b0d0be5fe0093
+
+PODFILE CHECKSUM: 96a2496c655f546e32505196d3ff4382efdffbf5
+
+COCOAPODS: 1.8.4
