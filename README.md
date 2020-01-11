@@ -3,7 +3,8 @@
 
 
 # 声明
- 修改自 `JKCategories`
+ 修改自 [JKCategories](https://github.com/shaojiankui/JKCategories)
+ 
 ## 修改内容包括：
 >1.修改类名方法名前缀
 
