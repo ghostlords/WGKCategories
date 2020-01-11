@@ -7,7 +7,7 @@
 //
 
 #import "WGKViewController.h"
-
+#import <WGKCategories/WGKCategories.h>
 @interface WGKViewController ()
 
 @end
@@ -17,7 +17,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    [@{@"a":@"a",@"b":@"b"} wgk_each:^(id k, id v) {
+       
+        NSLog(@"%@-%@",k,v);
+    }];
 }
 
 - (void)didReceiveMemoryWarning
